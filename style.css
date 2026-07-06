@@ -8,7 +8,8 @@ body{
     font-family:"Roboto", sans-serif;
 }
 
-.header{
+.header,
+.hero{
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
@@ -29,7 +30,49 @@ ul{
     gap: 20px;
 }
 
-a{
+a,
+.hero-para,
+.hero-image{
     text-decoration: none;
     color: #E5E7EB;
+    font-size: 18px;
 }
+
+.hero{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 100px;
+}
+
+.hero-title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-text,
+.hero-image{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 500px;
+    height: 250px;
+}
+
+.hero-text{
+    justify-content: space-between;
+}
+
+.hero-button{
+    background-color: #3882F6;
+    padding: 10px 30px;
+    width: fit-content;
+    font-weight: 900;
+    border-radius: 8px;
+}
+
+.hero-image{
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
