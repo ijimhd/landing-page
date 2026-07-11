@@ -19,7 +19,9 @@ body{
 }
 
 .logo,
-.quote-author{
+.quote-author,
+.call-to-action-text-bold,
+.call-to-action-button{
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
@@ -34,7 +36,8 @@ ul{
 
 a,
 .hero-para,
-.hero-image{
+.hero-image,
+.call-to-action-text{
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
@@ -69,7 +72,7 @@ a,
     padding: 10px 30px;
     width: fit-content;
     font-weight: 900;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .hero-image{
@@ -126,5 +129,34 @@ a,
 .quote-author{
     align-self: flex-end;
     color:#1F2937;
+}
+
+.call-to-action-container{
+    padding: 100px 200px;
+}
+
+.call-to-action{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #3882F6;
+    padding: 50px 170px;
+    border-radius: 10px;
+}
+
+.call-to-action-button{
+    border: 2px solid #E5E7EB;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.footer{
+    padding-block: 30px;
+    background-color:#1F2937;
+}
+
+.footer-text{
+    color: #E5E7EB;
+    text-align: center;
 }
 
